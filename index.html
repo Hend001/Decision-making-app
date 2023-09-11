@@ -10,19 +10,20 @@
     <main>
       <section>
         <div class="main-container">
-          <h1>Desicion making app</h1>
-          <h3>
-            What do you want to ask from the three wise men of the internet?
-          </h3>
-
-          <form action=""></form>
-          <!-- action attribute Specifies where to send the form-data when a form is submitted-->
-          <div class="input-container">
-            <label for="userInput">Enter your question: </label>
-            <input type="text" id="userInput" />
+          <div class="main-div-inside">
+            <h3>Ask the three wise men of the internet?</h3>
+            <form action=""></form>
+            <!-- action attribute Specifies where to send the form-data when a form is submitted-->
+            <div class="input-div">
+              <input
+                type="text"
+                id="userInput"
+                placeholder="Enter your question"
+              />
+            </div>
+            <p id="demo">Waiting for an answer......</p>
+            <button onclick="question()">Click here</button>
           </div>
-          <button onclick="question()">Click here</button>
-          <p id="demo">Ask me!</p>
         </div>
       </section>
     </main>
