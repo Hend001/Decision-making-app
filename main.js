@@ -1,12 +1,4 @@
-/* let userName = "hend";
-  let nameLenght = userName.length;
-  if (nameLenght > 0) {
-    console.log("Hello", userName);
-  } else {
-    console.log("try again");
-  }*/
 function question() {
-  //let userQuestion = prompt("Enter your question:");>>> can use that too in different case
   let userQuestion = document.querySelector("#userInput");
   let text = document.querySelector("#demo");
   if (userQuestion.value != "") {
