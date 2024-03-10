@@ -1,4 +1,4 @@
-name: CI/CD
+name: Decision Making app
 
 on: push
 
@@ -11,3 +11,6 @@ jobs:
 
       - name: Run a one-line script
         run: echo "Hello, from my app"
+
+      - name: Another greeting
+        run: echo "Hello, CI/CD again!"
